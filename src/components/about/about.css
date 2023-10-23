@@ -1,0 +1,103 @@
+.box{
+    border: 5px solid black;
+    margin: 30px;
+}
+.container1{
+    display: flex;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
+.line{
+    width: 90%;
+    border: 5px solid red;
+}
+.about-heading{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-right: 100px;
+    /* border-bottom: 1px solid #f74f58; */
+    color: #f74f58;
+    font-family: sans-serif;
+    margin-left:100px ;
+}
+.box{
+    /* position: relative; */
+    /* width: 56%; */
+    /* margin: 10% auto 0; */
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0,.1);
+    /* transition: 1s; */
+}
+.image-front{
+    position: absolute;
+}
+.box:hover{
+    
+    transform: scale(1.0);
+    z-index: 1;
+    /* background: black; */
+    /* border-color: red; */
+    /* background: re; */
+    /* border: 10px solid red; */
+}
+.image-front:hover{
+    
+    opacity: 0;
+    /* transition: opacity 0.5s ease-in-out; */
+    /* z-index: ; */
+}
+.image-hover-1:hover{
+    box-shadow: blue;
+}
+
+.para{
+    display: inline-block;
+}
+.text{
+    /* font-size: 5rem; */
+    /* letter-spacing: 10px; */
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+      typing 5s ,
+      cursor .4s step-end infinite alternate;
+}
+.image-hover-1:hover {
+    box-shadow:1px 10px 30px 5px blue;
+    cursor: pointer;
+}
+.image-hover-2:hover {
+    box-shadow:1px 10px 30px 5px gray;
+    cursor: pointer;
+}
+.image-hover-3:hover {
+    box-shadow:1px 10px 30px 5px red;
+    cursor: pointer;
+}
+
+.image-modal-1{
+    border: 1px solid blue;
+    box-shadow:1px 10px 30px 5px blue;
+
+}
+.image-modal-2{
+    border: 1px solid gray;
+    box-shadow:1px 10px 30px 5px gray;
+
+}
+.image-modal-3{
+    border: 1px solid red;
+    box-shadow:1px 10px 30px 5px red;
+}
+@keyframes cursor{
+    50%{ border-color: transparent;}
+}
+@keyframes typing{
+    from {width: 0;}
+}

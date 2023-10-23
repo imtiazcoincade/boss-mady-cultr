@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.table{
+    width: 100%;
+}
+.roadmap-heading{
+  
+        font-size: 60px;
+        text-transform: uppercase;
+        font-weight: 900;
+        margin-right: 100px;
+        color: #f74f58;
+        font-family: sans-serif;
+        margin-left:100px ;
+    
+}
+
+.image-card{
+
+    width: 70%;
+    bottom: 28%;
+    left: 16%;
+}
+.card{
+    
+    padding: 20px;
+    position: relative;
+    width:250px;
+    height: 360px;
+    transform-style: preserve-3d;
+}
+.card .face{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    transition: 1.5s ease-in-out;
+    transform: perspective(500px) rotateY(0deg);
+}
+
+/*
+.card:hover .face.front{
+    transform: perspective(500px) rotateY(180deg);
+}
+.card .face.back{
+    transform: perspective(500px) rotateY(180deg);
+}
+.card:hover .face.back{
+    transform: perspective(500px) rotateY(360deg);
+} 
+*/
+ 
+.card-1:hover .face-1.front-1{
+    transform: perspective(500px) rotateY(180deg);
+}
+.card-1 .face-1.back-1{
+    transform: perspective(500px) rotateY(180deg);
+}
+.card-1:hover .face-1.back-1{
+    transform: perspective(500px) rotateY(360deg);
+} 
+
+/* #img-2, #img-3, #img-4:hover{
+    opacity: 0.3;
+} */
+.card-2:hover{
+    opacity: 0.3;
+}
+.card-3:hover{
+    opacity: 0.3;
+}
+
+.card-4:hover{
+    opacity: 0.3;
+}
+
+.modal-component{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    position: absolute;
+    left:350px;
+    top: 0px;
+    /* bottom: -0px; */
+    /* bottom: 100px; */
+    width: 500px;
+}
+.lock-img{
+    position: absolute;
+    bottom: -29px;
+    left: 90px;
+}
