@@ -7,7 +7,7 @@ import hero from '../assets/website man.mp4';
 import title from '../assets/lifestyle text.mp4';
 import Logo from '../assets/BossCultr Logo white.png';
 import logo from "../assets/BossCultr Logo white.png";
-import bossManImg from '../assets/bossMan.png';
+// import bossManImg from '../assets/bossMan.png';
 import bossManVideo from '../assets/BG 2 final.mp4';
 import BossPicture1 from '../assets/Boss1.png';
 import BossPicture2 from '../assets/Boss2.png'
@@ -53,7 +53,7 @@ export const mediaDataObj = {
     bossManVideo,
     Logo,
     logo,
-    bossManImg,
+    // bossManImg,
     longVideo,
     closeButton,
     twitter,
